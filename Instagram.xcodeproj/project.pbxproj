@@ -34,6 +34,7 @@
 		967E7F8319A2CAC4006E7330 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E7F8219A2CAC4006E7330 /* Accounts.framework */; };
 		967E7F8519A2CACE006E7330 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E7F8419A2CACE006E7330 /* CoreLocation.framework */; };
 		967E7F8719A2CADF006E7330 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E7F8619A2CADF006E7330 /* Parse.framework */; };
+		96A6F4FA19A2F7BD007EEC74 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A6F4F919A2F7BD007EEC74 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		967E7F8219A2CAC4006E7330 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		967E7F8419A2CACE006E7330 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		967E7F8619A2CADF006E7330 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		96A6F4F819A2F7BD007EEC74 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		96A6F4F919A2F7BD007EEC74 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 				967E7F4B19A2C7B1006E7330 /* Main.storyboard */,
 				967E7F4E19A2C7B1006E7330 /* ViewController.h */,
 				967E7F4F19A2C7B1006E7330 /* ViewController.m */,
+				96A6F4F819A2F7BD007EEC74 /* LoginViewController.h */,
+				96A6F4F919A2F7BD007EEC74 /* LoginViewController.m */,
 				967E7F5119A2C7B1006E7330 /* Images.xcassets */,
 				967E7F4019A2C7B1006E7330 /* Supporting Files */,
 			);
@@ -301,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A6F4FA19A2F7BD007EEC74 /* LoginViewController.m in Sources */,
 				967E7F5019A2C7B1006E7330 /* ViewController.m in Sources */,
 				967E7F4A19A2C7B1006E7330 /* AppDelegate.m in Sources */,
 				967E7F4619A2C7B1006E7330 /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				967E7F6A19A2C7B1006E7330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		967E7F6B19A2C7B1006E7330 /* Build configuration list for PBXNativeTarget "InstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				967E7F6D19A2C7B1006E7330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
